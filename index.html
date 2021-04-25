@@ -28,22 +28,32 @@
 					url: "src/pages/week01.html"
 				}
 			]
-			function generateList()
+			function generateList() {
+				const projectList = document.querySelector("#projects");
+				var arrayLength = projects.length;
+				for (var i = 0; i < arrayLength; i++) {
+					var projectName = projects[i].label;
+					var projectLink = projects[i].url; 
+					projectList.appendChild(generateListItem(projectName, projectLink))
+				}
+			}
 			function generateListItem(projectName, projectLink) {
-				const projects = document.querySelector("#projects");
 				//generate a list item with the given name
 				let project = document.createElement("li");
-				let projectHref = document.createElement("a")
+				let projectHref = document.createElement("a");
+				//set class for style
+				projectHref.className = "button";
 				projectHref.textContent = projectName;
 				projectHref.setAttribute('href', projectLink);
 				project.appendChild(projectHref);
+
+				return project;
 			}
 		</script>
 	</head>
 	<body style = "text-align: center;" onload="generateList()">
 		<h1 style="font-size: 500%"> Projects </h1>
 		<ul id="projects">
-		<a href="placeholder.html" class="button">Item 1</a><br/>
 		<ul>
 
 	</body>
