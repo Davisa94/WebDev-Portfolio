@@ -21,11 +21,30 @@
 	</style>
 		<meta charset = "utf-8" />
 		<title> Austin Benitez's Portfolio </title>
+		<script>
+			const projects = [
+				{
+					label: "Week 01 Notes",
+					url: "src/pages/week01.html"
+				}
+			]
+			function generateList()
+			function generateListItem(projectName, projectLink) {
+				const projects = document.querySelector("#projects");
+				//generate a list item with the given name
+				let project = document.createElement("li");
+				let projectHref = document.createElement("a")
+				projectHref.textContent = projectName;
+				projectHref.setAttribute('href', projectLink);
+				project.appendChild(projectHref);
+			}
+		</script>
 	</head>
-	<body style = "text-align: center;">
+	<body style = "text-align: center;" onload="generateList()">
 		<h1 style="font-size: 500%"> Projects </h1>
-		<ul>
+		<ul id="projects">
 		<a href="placeholder.html" class="button">Item 1</a><br/>
 		<ul>
+
 	</body>
 </html>
