@@ -5,7 +5,7 @@ const projects = [
     },
     {
         label: "Week 02 Notes",
-        url: "../pages/week02.html"
+        url: "src/pages/week02.html"
     }
 ]
 function generateList() {
