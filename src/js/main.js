@@ -1,11 +1,11 @@
 const projects = [
     {
         label: "Week 01 Notes",
-        url: "src/pages/week01.html"
+        url: "../pages/week01.html"
     },
     {
         label: "Week 02 Notes",
-        url: "src/pages/week02.html"
+        url: "../pages/week02.html"
     }
 ]
 function generateList() {
