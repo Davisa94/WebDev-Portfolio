@@ -1,7 +1,7 @@
 const projects = [
     {
         label: "Week 01 Notes",
-        url: "pages/week01.html"
+        url: "src/pages/week01.html"
     },
     {
         label: "Week 02 Notes",
