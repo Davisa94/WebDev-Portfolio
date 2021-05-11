@@ -26,6 +26,10 @@ body{
 .two{
     font-size: 250%;
 }
+.three{
+    font-size: 150%;
+    flex-basis: 25%;
+}
 .wide{
     flex-basis: 45%;
 }

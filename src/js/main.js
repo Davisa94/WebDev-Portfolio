@@ -7,6 +7,10 @@ const projects = [
         label: "Week 02 Notes",
         url: "src/pages/week02.html"
     }
+    {
+        label: "Week 03 Notes",
+        url: "src/pages/week02.html"
+    }
 ]
 function generateList() {
     const projectList = document.querySelector("#projects");
