@@ -25,7 +25,7 @@ class TodoList {
     constructor(itemList=[new TodoItem()], ){
         this.itemList = itemList
     }
-    display(this){
+    display(){
         footer = '<div class="listItem"><div class="checkbox row"></div><p class="listItemBody row"></p><div class="listItemDelete row"></div></div>'
         rawHTML = ""
         for (item in this.itemList){
@@ -35,3 +35,21 @@ class TodoList {
     }
 }
 
+function generateListeners(){
+    document.set
+}
+
+// Get the new item from the DOM
+function getNewItem(){
+
+}
+
+// add the item to the main list
+function addListItem(itemContent){
+
+}
+
+function main(){
+    todoList = new TodoList()
+
+}

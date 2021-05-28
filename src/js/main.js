@@ -21,7 +21,7 @@ const projects = [
     },
     {
         label: "Todo List Project",
-        url: "src/pages/todoProject/todo.html"
+        url: "src/todoProject/todo.html"
     }
 ]
 function generateList() {
