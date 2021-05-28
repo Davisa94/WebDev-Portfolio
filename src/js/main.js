@@ -1,3 +1,4 @@
+// A list of links for the homepage
 const projects = [
     {
         label: "Week 01 Notes",
