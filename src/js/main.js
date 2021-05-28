@@ -18,6 +18,10 @@ const projects = [
     {
         label: "Week 05 Notes",
         url: "src/pages/week05.html"
+    },
+    {
+        label: "Todo List Project",
+        url: "src/pages/todoProject/todo.html"
     }
 ]
 function generateList() {
