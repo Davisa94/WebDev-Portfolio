@@ -180,3 +180,12 @@ function renderOneHike(hike) {
 
     return item;
 }
+
+let navList = document.getElementById("gx-nav-list")
+let featListRaw = navList.children
+let featureList = []
+
+for (var i = 0, len = featListRaw.length; i < len; i++ ) {
+    featureList.push(featListRaw[i].getAttribute("data-section"))
+}
+let stringifiedFeatList = featureList.join("\n")
